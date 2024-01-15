@@ -67,7 +67,6 @@ var RandomNameGenerator = function (_a) {
         }); };
         fetchRandomName();
     }, []);
-    console.log('RANDOM NAME ', randomName);
     return (react_1["default"].createElement("div", { className: "my-4" },
         react_1["default"].createElement("p", null,
             "Your opponent will be: ",

@@ -30,8 +30,6 @@ const RandomNameGenerator: React.FC<RandomNameGeneratorProps> = ({ setComputerNa
     fetchRandomName();
   }, []);
 
-  console.log('RANDOM NAME ', randomName);
-
   return (
     <div className="my-4">
       <p>Your opponent will be: <span className="text-pink-400">{randomName}</span></p>
